@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)http://127.0.0.1:8000/admin/flatpages/flatpage/1/ -->
+<html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Change flat page | Django site admin</title>
+<link rel="stylesheet" type="text/css" href="./Change flat page   Django site admin_files/base.css">
+<link rel="stylesheet" type="text/css" href="./Change flat page   Django site admin_files/forms.css">
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="/static/admin/css/ie.css" /><![endif]-->
+
+<script type="text/javascript">window.__admin_media_prefix__ = "/static/admin/";</script>
+
+<script type="text/javascript" src="./Change flat page   Django site admin_files/saved_resource"></script>
+<script type="text/javascript" src="./Change flat page   Django site admin_files/core.js"></script>
+<script type="text/javascript" src="./Change flat page   Django site admin_files/RelatedObjectLookups.js"></script>
+<script type="text/javascript" src="./Change flat page   Django site admin_files/jquery.js"></script>
+<script type="text/javascript" src="./Change flat page   Django site admin_files/jquery.init.js"></script>
+<script type="text/javascript" src="./Change flat page   Django site admin_files/actions.js"></script>
+<script type="text/javascript" src="./Change flat page   Django site admin_files/collapse.js"></script>
+
+<meta name="robots" content="NONE,NOARCHIVE">
+</head>
+
+
+<body class="flatpages-flatpage change-form">
+
+<!-- Container -->
+<div id="container">
+
+    
+    <!-- Header -->
+    <div id="header">
+        <div id="branding">
+        
+<h1 id="site-name">Django administration</h1>
+
+        </div>
+        
+        <div id="user-tools">
+            Welcome,
+            <strong>joe</strong>.
+            
+                
+                
+                    <a href="http://127.0.0.1:8000/admin/doc/">Documentation</a> /
+                
+                
+                <a href="http://127.0.0.1:8000/admin/password_change/">Change password</a> /
+                
+                <a href="http://127.0.0.1:8000/admin/logout/">Log out</a>
+            
+        </div>
+        
+        
+    </div>
+    <!-- END Header -->
+    
+<div class="breadcrumbs">
+<a href="http://127.0.0.1:8000/admin/">Home</a>
+› <a href="http://127.0.0.1:8000/admin/flatpages/">Flatpages</a>
+› <a href="http://127.0.0.1:8000/admin/flatpages/flatpage/">Flat pages</a>
+› /pages/about/ -- About
+</div>
+
+    
+
+    
+        
+    
+
+    <!-- Content -->
+    <div id="content" class="colM">
+        
+        <h1>Change flat page</h1>
+        <div id="content-main">
+
+
+  <ul class="object-tools">
+    
+    <li><a href="http://127.0.0.1:8000/admin/flatpages/flatpage/1/history/" class="historylink">History</a></li>
+    <li><a href="http://127.0.0.1:8000/admin/r/11/1/" class="viewsitelink">View on site</a></li>
+    
+  </ul>
+
+
+<form enctype="multipart/form-data" action="" method="post" id="flatpage_form"><input type="hidden" name="csrfmiddlewaretoken" value="Y9SzU4Oa2qodORIQcXu1TXVAMifmNJKj">
+<div>
+
+
+
+
+
+
+  <fieldset class="module aligned ">
+    
+    
+    
+        <div class="form-row field-url">
+            
+            
+                <div>
+                    
+                    
+                        <label for="id_url" class="required">URL:</label>
+                        
+                            <input id="id_url" maxlength="100" name="url" type="text" value="/pages/about/">
+                        
+                    
+                    
+                        <p class="help">Example: '/about/contact/'. Make sure to have leading and trailing slashes.</p>
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-title">
+            
+            
+                <div>
+                    
+                    
+                        <label for="id_title" class="required">Title:</label>
+                        
+                            <input class="vTextField" id="id_title" maxlength="200" name="title" type="text" value="About">
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-content">
+            
+            
+                <div>
+                    
+                    
+                        <label for="id_content">Content:</label>
+                        
+                            <textarea class="vLargeTextField" cols="40" id="id_content" name="content" rows="10"></textarea>
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-sites">
+            
+            
+                <div>
+                    
+                    
+                        <label for="id_sites" class="required">Sites:</label>
+                        
+                            <select multiple="multiple" id="id_sites" name="sites">
+<option value="1" selected="selected">example.com</option>
+</select><a href="http://127.0.0.1:8000/admin/sites/site/add/" class="add-another" id="add_id_sites" onclick="return showAddAnotherPopup(this);"> <img src="./Change flat page   Django site admin_files/icon_addlink.gif" width="10" height="10" alt="Add Another"></a>
+                        
+                    
+                    
+                        <p class="help"> Hold down "Control", or "Command" on a Mac, to select more than one.</p>
+                    
+                </div>
+            
+        </div>
+    
+</fieldset>
+
+
+  <fieldset class="module aligned collapse collapsed">
+    <h2>Advanced options (<a id="fieldsetcollapser0" class="collapse-toggle" href="http://127.0.0.1:8000/admin/flatpages/flatpage/1/#">Show</a>)</h2>
+    
+    
+        <div class="form-row field-enable_comments">
+            
+            
+                <div>
+                    
+                    
+                        <input id="id_enable_comments" name="enable_comments" type="checkbox"><label for="id_enable_comments" class="vCheckboxLabel">Enable comments</label>
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-registration_required">
+            
+            
+                <div>
+                    
+                    
+                        <input id="id_registration_required" name="registration_required" type="checkbox"><label for="id_registration_required" class="vCheckboxLabel">Registration required</label>
+                    
+                    
+                        <p class="help">If this is checked, only logged-in users will be able to view the page.</p>
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-template_name">
+            
+            
+                <div>
+                    
+                    
+                        <label for="id_template_name">Template name:</label>
+                        
+                            <input class="vTextField" id="id_template_name" maxlength="70" name="template_name" type="text">
+                        
+                    
+                    
+                        <p class="help">Example: 'flatpages/contact_page.html'. If this isn't provided, the system will use 'flatpages/default.html'.</p>
+                    
+                </div>
+            
+        </div>
+    
+</fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="submit-row">
+<input type="submit" value="Save" class="default" name="_save">
+<p class="deletelink-box"><a href="http://127.0.0.1:8000/admin/flatpages/flatpage/1/delete/" class="deletelink">Delete</a></p>
+
+<input type="submit" value="Save and add another" name="_addanother">
+<input type="submit" value="Save and continue editing" name="_continue">
+</div>
+
+
+
+
+
+
+<script type="text/javascript">
+(function($) {
+    var field;
+
+
+})(django.jQuery);
+</script>
+
+
+</div>
+</form></div>
+
+        
+        <br class="clear">
+    </div>
+    <!-- END Content -->
+
+    <div id="footer"></div>
+</div>
+<!-- END Container -->
+
+
+
+</body></html>

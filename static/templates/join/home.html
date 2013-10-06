@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block jumbotron %}
+<div class="jumbotron masthead">
+  <div class="container">
+    <div class='row'>
+        <div class='span8 pull-left'>
+    <h1>Start Page</h1>
+    <p>Get Feed Back In Real Time. Track Your Users. Do Other Really Cool Things.</p>
+    <p>
+      <a href='#sign_up' class='btn btn-primary'>Sign Up Now</a>
+    </p>
+    </div>
+    <!-- YOUTUBE VIDEO -- YOUTUBE VIDEO -- YOUTUBE VIDEO -->
+    
+    <div class='span4 pull-right'>
+        <iframe width="560" height="315" src="//www.youtube.com/embed/OrbSRLiIdOk" frameborder="0" allowfullscreen></iframe>
+        <!--<iframe width="560" height="315" src="//www.youtube.com/embed/PaahUogxMow" frameborder="0" allowfullscreen></iframe>-->
+    </div>
+  </div>
+  </div>
+</div>
+
+{% endblock %}
+
+{% block content %}
+
+    <!-- THREE BLOCKS -- THREE BLOCKS -- THREE BLOCKS -->
+    
+    <h1>Tell Us About What You're Doing!</h1>
+    <p class='marketing-byline'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div class='row'>
+        <div class='span4'>
+            <img src='/static/img/image1.jpeg' />
+            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+        </div>
+        <div class='span4'>
+            <img src='/static/img/image1.jpeg' />
+            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+        </div>
+        <div class='span4'>
+            <img src='/static/img/image1.jpeg' />
+            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+        </div>
+    </div>
+    <hr class='soften' />
+    
+<h1>Join Us</h1>
+<a name='sign_up'></a>
+<form action='' method='POST'> {% csrf_token %}
+{{ form.as_p }}
+<input class='btn', type='submit' value='Join' />
+</form>
+
+{% endblock %}

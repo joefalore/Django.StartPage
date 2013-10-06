@@ -1,0 +1,56 @@
+.jumbotron {
+position: relative;
+padding: 40px 0;
+color: #fff;
+text-align: center;
+text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+background: #889EF5;
+background: -moz-linear-gradient(45deg, #889EF5 0%, #7040C4 100%);
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#889EF5), color-stop(100%,#7040C4));
+background: -webkit-linear-gradient(45deg, #889EF5 0%,#7040C4 100%);
+background: -o-linear-gradient(45deg, #889EF5 0%,#7040C4 100%);
+background: -ms-linear-gradient(45deg, #889EF5 0%,#7040C4 100%);
+background: linear-gradient(45deg, #889EF5 0%,#7040C4 100%);
+
+}
+
+body > .navbar .brand {
+    float:left;
+    color: White;
+
+}
+
+
+/* STICKY FOOTER -- STICKY FOOTER -- STICKY FOOTER */
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+  height: 60px;
+}
+#footer {
+  background-color: #eee;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+#footer {
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+}
